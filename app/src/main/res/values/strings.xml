@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">s10198576_Project2</string>
+    <string name="user_id">User Id</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Manage budget</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="Logout">Logout</string>
+    <string name="name">Name</string>
+    <string name="budget">Monthly Budget</string>
+    <string name="savings">Monthly Percentage To Save</string>
+    <string name="manage_budget">Manage Budget</string>
+</resources>

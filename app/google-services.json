@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "912308497583",
+    "project_id": "schoolproject2-5fa42",
+    "storage_bucket": "schoolproject2-5fa42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912308497583:android:5ae29f7e2020e14eac785a",
+        "android_client_info": {
+          "package_name": "com.schoolthing.project2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912308497583-7vqsjn4lpvo0lsp4omk0fnvpl1cl9u98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX2OqfGkH6q15z-GsDtCXmjCFI5GecfvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912308497583-7vqsjn4lpvo0lsp4omk0fnvpl1cl9u98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

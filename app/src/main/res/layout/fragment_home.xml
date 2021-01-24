@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <EditText
+        android:id="@+id/etSaving_Home"
+        android:layout_width="242dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="71dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/savings"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/btTest_Home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etBudget_Home" />
+
+    <EditText
+        android:id="@+id/etBudget_Home"
+        android:layout_width="242dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="29dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/budget"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/etSaving_Home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSave" />
+
+    <Button
+        android:id="@+id/btTest_Home"
+        android:layout_width="143dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="177dp"
+        android:text="Update Budget"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSaving_Home" />
+
+    <TextView
+        android:id="@+id/tvBalance"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvsomethinglol2"
+        app:layout_constraintEnd_toEndOf="@+id/tvSave"
+        app:layout_constraintStart_toStartOf="@+id/tvsomethinglol2"
+        app:layout_constraintTop_toBottomOf="@+id/tvsomethinglol" />
+
+    <TextView
+        android:id="@+id/tvSave"
+        android:layout_width="180dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="53dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/etBudget_Home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvsomethinglol2" />
+
+    <TextView
+        android:id="@+id/tvsomethinglol"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center|right"
+        android:text="Balance:"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvBalance"
+        app:layout_constraintEnd_toEndOf="@+id/tvsomethinglol2"
+        app:layout_constraintStart_toStartOf="@+id/tvBalance"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvsomethinglol2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="27dp"
+        android:gravity="center|right"
+        android:text="To Save:"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvSave"
+        app:layout_constraintEnd_toEndOf="@+id/tvSave"
+        app:layout_constraintStart_toStartOf="@+id/etBudget_Home"
+        app:layout_constraintTop_toBottomOf="@+id/tvBalance" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
