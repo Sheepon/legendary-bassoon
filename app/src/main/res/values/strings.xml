@@ -14,11 +14,14 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Manage budget</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_gallery">Manage budget(Monthly)</string>
+    <string name="menu_slideshow">Manage budget(Weekly)</string>
+    <string name="menu_stonks">Stonks</string>
     <string name="Logout">Logout</string>
     <string name="name">Name</string>
     <string name="budget">Monthly Budget</string>
     <string name="savings">Monthly Percentage To Save</string>
     <string name="manage_budget">Manage Budget</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

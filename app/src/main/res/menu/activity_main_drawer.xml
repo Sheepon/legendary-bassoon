@@ -9,18 +9,23 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/fui_ic_anonymous_white_24dp"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@android:drawable/ic_menu_month"
             android:title="Monthly Budget" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@android:drawable/ic_menu_day"
             android:title="Weekly Budget" />
         <item
+            android:id="@+id/nav_stonks"
+            android:icon="@drawable/fui_ic_yahoo_24dp"
+            android:title="Stonks" />
+        <item
             android:id="@+id/nav_logout"
+            android:icon="@drawable/abc_vector_test"
             android:title="@string/Logout" />
     </group>
 </menu>

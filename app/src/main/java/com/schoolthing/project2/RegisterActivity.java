@@ -63,37 +63,31 @@ public class RegisterActivity extends AppCompatActivity {
         if(etPassword.getText().toString().equals(etRPassword.getText().toString())){
             password = etPassword.getText().toString();
         }else{
-            etRPassword.setError("Please check your password again");
-            etRPassword.requestFocus();
+            Toast.makeText(this, "Please check your password again", Toast.LENGTH_SHORT).show();
             return;
         }
 
         if(name.isEmpty()){
-            etName.setError("Please type in a name");
-            etName.requestFocus();
+            Toast.makeText(this, "Please type in your name", Toast.LENGTH_SHORT).show();
             return;
         }
         if(email.isEmpty()){
-            etuserid.setError("Please type in an email");
-            etuserid.requestFocus();
+            Toast.makeText(this, "Please type in  your email", Toast.LENGTH_SHORT).show();
             return;
         }
 
         if(etPassword.getText().toString().isEmpty()){
-            etPassword.setError("Please type in a password");
-            etPassword.requestFocus();
+            Toast.makeText(this, "Please type in your password", Toast.LENGTH_SHORT).show();
             return;
         }
 
         if(etRPassword.getText().toString().isEmpty()){
-            etRPassword.setError("Please recheck your password again");
-            etRPassword.requestFocus();
+            etRPassword.setError("Please type in your password again");
             return;
         }
 
         if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-            etuserid.setError("Please type in a valid email");
-            etuserid.requestFocus();
+            Toast.makeText(this, "Please type in a valid email address", Toast.LENGTH_SHORT).show();
             return;
         }
 
